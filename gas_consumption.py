@@ -4,6 +4,8 @@
     #
     # Gas Consumption
     #
+Class gas_meter
+
     def get_gas_meter(self) -> GasMeter:
         return GasMeter(self.msg.gas)
 
